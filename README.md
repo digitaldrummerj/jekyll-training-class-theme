@@ -16,5 +16,5 @@ Features:
 * Google Analytics
 * Sitemap  
 
-Theme written by Justin James, [http://digitaldrummerj.me](http://digitaldrummerj.me]
+Theme written by Justin James, [http://digitaldrummerj.me](http://digitaldrummerj.me)
 

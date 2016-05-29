@@ -24,5 +24,5 @@ Features:
 Github Repository at [https://github.com/digitaldrummerj/jekyll-training-class-theme](https://github.com/digitaldrummerj/jekyll-training-class-theme)
 
 
-Theme written by Justin James, [http://digitaldrummerj.me](http://digitaldrummerj.me]
+Theme written by Justin James, [http://digitaldrummerj.me](http://digitaldrummerj.me)
 
