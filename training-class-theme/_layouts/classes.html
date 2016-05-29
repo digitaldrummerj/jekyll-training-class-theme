@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+{% include classes-head.html %}
+
+<body>
+    <main class="wrap">
+        {% include classes-navigation.html %}
+        {% include classes-header.html %}
+        <div class="main-content">
+            <section class="main-copy">
+                {{ content }}
+            </section>
+            {% if page.layout != "classes-page" and page.layout != "classes" %} {% include classes-post-sidebar.html %} {% endif %}
+        </div>
+    </main>
+    {% include classes-footer.html %}
+</body>
+</html>

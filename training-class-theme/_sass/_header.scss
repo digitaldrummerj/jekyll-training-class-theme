@@ -1,0 +1,32 @@
+.wrap>header {
+     background-color: $header-background-color;
+     color: $header-font-color;
+     border-bottom: $header-border-bottom;
+     h1 {
+          font-size: 2.6em;
+          text-align: center;
+          font-weight: 700;
+          padding: $header-padding;
+          color: $header-font-color;
+     }
+
+     img {
+          height: 98px;
+          width: 98px;
+          vertical-align: middle;
+     }
+ 
+     a, a:hover {
+          text-decoration: none;
+          color: #fff;
+     }
+
+     .testsite-warning {
+          background-color: $testsite-background;
+          padding: 5px 0 5px 0;
+          width: 100%;
+          color: $testsite-font-color;
+          text-align: center
+     }
+}
+

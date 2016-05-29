@@ -1,0 +1,24 @@
+---
+layout: classes
+---
+
+<div class="post">
+    <div class="post-title">
+    <h1 >{% if page.ishome != null %}<img src="images/logo.png" alt="{{page.type}} Logo">{% endif %}{{ page.title }}</h1>
+    <span class="post-date" {% if page.ishome != null %} style="margin-left: 3.5em;" {% endif %}>Last Updated: {{ page.date | date_to_string }}</span>
+
+    {% assign length-size = (page.length | size) %}
+    {% if page.length != null and length-size > 0 %}
+    <br /><span class="lab-length">Lab Length: {{ page.length }}</span>
+    {% endif %}
+    {% if page.ishome == null %}
+        {% include classes-paging.html %}
+    {% endif %}
+    </div>
+    
+    {% include classes-todo.html %}
+        {{ content }}
+    {% if page.ishome == null %}
+        {% include classes-paging.html %}
+    {% endif %}
+</div>

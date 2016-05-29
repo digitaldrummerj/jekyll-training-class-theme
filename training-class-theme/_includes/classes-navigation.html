@@ -1,0 +1,11 @@
+<nav class="navbar">
+     <nav class="row">
+          <div id="nav">
+               <ul class="columns large-12 center primary-nav">
+                    <li><a href="{{ " / " | prepend: site.baseurl  }}">Home</a></li>
+                    <li><a href="{{ " /about " | prepend: site.baseurl }}" {% if page.url=="about" %} id="selected" {% endif
+                              %}>About</a></li>
+               </ul>
+          </div>
+     </nav>
+</nav>

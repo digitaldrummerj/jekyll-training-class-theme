@@ -1,0 +1,47 @@
+/* page footer */
+body>footer, .wrap:after {
+  height: $footer-height; 
+}
+
+// Styling for mobile devices
+@media screen and (max-width: 768px) {
+  .site-footer, .wrap:after {
+    height: $footer-height * 2.8; 
+  }
+}
+
+ body>footer {
+  font-size: 0.7em;
+  font-style: italic;
+  background-color: $footer-background-color;
+  color: $footer-font-color;
+  padding: 1em calc(33% - 6.6em);
+     clear: both;
+     display: flex;
+     justify-content: space-between;
+  
+
+  a {
+    color: inherit;
+    transition: color .2s ease-out;
+    text-decoration: inherit;
+  }
+  
+  /**
+ * Icons
+ */
+.icon {
+    > svg {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin: 0 0.25em;
+
+        path {
+            fill: $footer-icon-color;//$grey-color;
+        }
+    }
+}
+
+}

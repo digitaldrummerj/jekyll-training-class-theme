@@ -1,0 +1,13 @@
+<header role="banner">
+
+  <h1 class="main-title">
+            <a href="{{ home }}"><img src="/images/lightbulp.png" alt="Workshop Logo" />
+            {% if page.lab != null  %}
+                {{page.lab}}
+            {% else %}
+                classes
+            {% endif %}
+            </a>
+        </h1> {% if site.testsite-warning %}
+  <div class="testsite-warning">{{ site.testsite-warning }}</div>{% endif %}
+</header>
